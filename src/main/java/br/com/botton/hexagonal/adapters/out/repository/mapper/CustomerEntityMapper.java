@@ -9,5 +9,6 @@ import br.com.botton.hexagonal.application.core.domain.Customer;
 public interface CustomerEntityMapper {
 
 	CustomerEntity toCustomerEntity(Customer customer);
+	Customer toCustomer(CustomerEntity customerEntity);
 	
 }
